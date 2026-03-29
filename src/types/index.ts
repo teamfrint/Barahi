@@ -43,3 +43,21 @@ export interface FooterProps {
   linkGroups: FooterLinkGroup[];
   copyright: string;
 }
+
+export interface ThemeConfig {
+  primary: string;
+  primaryHover: string;
+  secondary: string;
+  accent: string;
+  background: string;
+  textMain: string;
+  textMuted: string;
+}
+
+export interface SiteConfig {
+  siteTitle: string;
+  theme: ThemeConfig;
+  hero: HeroProps;
+  services: ServicesProps;
+  footer: FooterProps;
+}

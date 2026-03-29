@@ -1,81 +1,62 @@
+import { useState, useEffect } from 'react'
 import Header from './components/layout/Header'
 import Hero from './components/sections/Hero'
 import Services from './components/sections/Services'
 import Footer from './components/layout/Footer'
-import { HeroProps, ServicesProps, FooterProps } from './types'
+import { defaultConfig, professionalConfig } from './config/siteConfigs'
+import { applyTheme } from './utils/themeHelper'
 
 function App() {
-  const heroData: HeroProps = {
-    title: "Build Faster with",
-    titleHighlight: "Landing Kit",
-    description: "The most flexible and reusable React foundation for your modern web projects. Focus on your business, we'll handle the architecture.",
-    primaryAction: {
-      text: "Get Started",
-      onClick: () => console.log("Primary action clicked")
-    },
-    secondaryAction: {
-      text: "Documentation",
-      onClick: () => console.log("Secondary action clicked")
-    }
-  }
+  const [config, setConfig] = useState(defaultConfig)
 
-  const servicesData: ServicesProps = {
-    title: "Everything you need",
-    subtitle: "A comprehensive suite of tools and components to jumpstart your next project.",
-    services: [
-      {
-        icon: "⚡",
-        title: "Fast Performance",
-        description: "Optimized for speed and efficiency, ensuring a smooth user experience across all devices."
-      },
-      {
-        icon: "🧩",
-        title: "Modular Design",
-        description: "Easily swap components and styles to match your brand's unique identity."
-      },
-      {
-        icon: "📱",
-        title: "Fully Responsive",
-        description: "Looks great on desktops, tablets, and phones without any extra effort."
-      }
-    ]
-  }
+  useEffect(() => {
+    applyTheme(config.theme)
+    document.title = config.siteTitle
+  }, [config])
 
-  const footerData: FooterProps = {
-    brand: {
-      logoText: "Landing",
-      logoHighlight: "Kit",
-      description: "Empowering developers to build beautiful websites in record time."
-    },
-    linkGroups: [
-      {
-        title: "Resources",
-        links: [
-          { text: "Features", href: "#" },
-          { text: "Pricing", href: "#" },
-          { text: "Tutorials", href: "#" }
-        ]
-      },
-      {
-        title: "Company",
-        links: [
-          { text: "About", href: "#" },
-          { text: "Blog", href: "#" },
-          { text: "Contact", href: "#" }
-        ]
-      }
-    ],
-    copyright: "Landing Kit Framework. All rights reserved."
+  const toggleTheme = () => {
+    setConfig(prev => prev === defaultConfig ? professionalConfig : defaultConfig)
   }
 
   return (
     <div className="app-container">
       <Header />
+      
+      {/* Theme Switcher for Demonstration */}
+      <div style={{
+        position: 'fixed',
+        bottom: '2rem',
+        right: '2rem',
+        zIndex: 1000,
+        background: 'white',
+        padding: '1rem',
+        borderRadius: '12px',
+        boxShadow: '0 4px 20px rgba(0,0,0,0.1)',
+        display: 'flex',
+        flexDirection: 'column',
+        gap: '0.5rem',
+        border: '1px solid #e2e8f0'
+      }}>
+        <p style={{ margin: 0, fontSize: '0.875rem', fontWeight: 600 }}>Theme Switcher</p>
+        <button 
+          onClick={toggleTheme}
+          style={{
+            padding: '0.5rem 1rem',
+            background: 'var(--primary)',
+            color: 'white',
+            borderRadius: '6px',
+            fontSize: '0.75rem'
+          }}
+        >
+          Switch to {config === defaultConfig ? 'Professional' : 'Default'}
+        </button>
+      </div>
+
       <main>
-        <Hero {...heroData} />
-        <Services {...servicesData} />
+        <Hero {...config.hero} />
+        <Services {...config.services} />
       </main>
-      <Footer {...footerData} />
+      <Footer {...config.footer} />
     </div>
   )
 }
