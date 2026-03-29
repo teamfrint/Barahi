@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Build Faster with",
+    "titleHighlight": "Landing Kit",
+    "description": "The most flexible and reusable React foundation for your modern web projects. Focus on your business, we'll handle the architecture.",
+    "cta_primary": "Get Started",
+    "cta_secondary": "Documentation"
+  },
+  "services": {
+    "title": "Everything you need",
+    "subtitle": "A comprehensive suite of tools and components to jumpstart your next project.",
+    "items": {
+      "performance": {
+        "title": "Fast Performance",
+        "description": "Optimized for speed and efficiency, ensuring a smooth user experience."
+      },
+      "modular": {
+        "title": "Modular Design",
+        "description": "Easily swap components and styles to match your brand's identity."
+      },
+      "responsive": {
+        "title": "Fully Responsive",
+        "description": "Looks great on desktops, tablets, and phones without extra effort."
+      }
+    }
+  },
+  "footer": {
+    "brand_description": "Empowering developers to build beautiful websites in record time.",
+    "copyright": "Landing Kit Framework. All rights reserved.",
+    "resources": "Resources",
+    "company": "Company"
+  }
+}

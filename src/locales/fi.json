@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "home": "Etusivu",
+    "services": "Palvelut",
+    "contact": "Ota yhteyttä"
+  },
+  "hero": {
+    "title": "Rakenna nopeammin",
+    "titleHighlight": "Landing Kitillä",
+    "description": "Joustavin ja uudelleenkäytettävä React-perusta moderneille verkkoprojekteillesi. Keskity liiketoimintaasi, me hoidamme arkkitehtuurin.",
+    "cta_primary": "Aloita",
+    "cta_secondary": "Dokumentaatio"
+  },
+  "services": {
+    "title": "Kaikki mitä tarvitset",
+    "subtitle": "Kattava valikoima työkaluja ja komponentteja projektiesi vauhdittamiseen.",
+    "items": {
+      "performance": {
+        "title": "Nopea suorituskyky",
+        "description": "Optimoitu nopeuteen ja tehokkuuteen, varmistaen sujuvan käyttökokemuksen."
+      },
+      "modular": {
+        "title": "Modulaarinen muotoilu",
+        "description": "Vaihda komponentteja ja tyylejä helposti brändisi mukaiseksi."
+      },
+      "responsive": {
+        "title": "Täysin responsiivinen",
+        "description": "Näyttää upealta pöytäkoneilla, tableteilla ja puhelimilla ilman vaivaa."
+      }
+    }
+  },
+  "footer": {
+    "brand_description": "Autamme kehittäjiä rakentamaan kauniita verkkosivuja ennätysajassa.",
+    "copyright": "Landing Kit Framework. Kaikki oikeudet pidätetään.",
+    "resources": "Resurssit",
+    "company": "Yritys"
+  }
+}

@@ -5,14 +5,17 @@ import Services from './components/sections/Services'
 import Footer from './components/layout/Footer'
 import { defaultConfig, professionalConfig } from './config/siteConfigs'
 import { applyTheme } from './utils/themeHelper'
+import './i18n'
+import { useTranslation } from 'react-i18next'
 
 function App() {
+  const { t } = useTranslation()
   const [config, setConfig] = useState(defaultConfig)
 
   useEffect(() => {
     applyTheme(config.theme)
-    document.title = config.siteTitle
-  }, [config])
+    document.title = t(config.siteTitle)
+  }, [config, t])
 
   const toggleTheme = () => {
     setConfig(prev => prev === defaultConfig ? professionalConfig : defaultConfig)

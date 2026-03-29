@@ -1,21 +1,24 @@
 import '../../styles/Hero.css'
 import { HeroProps } from '../../types'
+import { useTranslation } from 'react-i18next'
 
 function Hero({ title, titleHighlight, description, primaryAction, secondaryAction }: HeroProps) {
+  const { t } = useTranslation()
+
   return (
     <section id="hero" className="hero">
       <div className="container hero-content">
-        <h1>{title}{titleHighlight && <><br/><span>{titleHighlight}</span></>}</h1>
-        <p>{description}</p>
+        <h1>{t(title)}{titleHighlight && <><br/><span>{t(titleHighlight)}</span></>}</h1>
+        <p>{t(description)}</p>
         <div className="hero-actions">
           {primaryAction && (
             <button className="btn-primary" onClick={primaryAction.onClick}>
-              {primaryAction.text}
+              {t(primaryAction.text)}
             </button>
           )}
           {secondaryAction && (
             <button className="btn-secondary" onClick={secondaryAction.onClick}>
-              {secondaryAction.text}
+              {t(secondaryAction.text)}
             </button>
           )}
         </div>
