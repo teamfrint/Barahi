@@ -2,6 +2,11 @@ import { SiteConfig } from '../types';
 
 export const defaultConfig: SiteConfig = {
   siteTitle: 'Landing Kit | Modern Foundation',
+  seo: {
+    title: 'hero.title',
+    description: 'hero.description',
+    ogType: 'website',
+  },
   theme: {
     primary: '#2563eb',
     primaryHover: '#1d4ed8',
@@ -11,6 +16,7 @@ export const defaultConfig: SiteConfig = {
     textMain: '#0f172a',
     textMuted: '#64748b',
   },
+// ... (rest of the config)
   hero: {
     title: 'hero.title',
     titleHighlight: 'hero.titleHighlight',
@@ -69,6 +75,11 @@ export const defaultConfig: SiteConfig = {
 
 export const professionalConfig: SiteConfig = {
   siteTitle: 'Pro Solutions | Enterprise Grade',
+  seo: {
+    title: 'Pro Solutions | Enterprise Web Architecture',
+    description: 'Scalable, secure, and performant web architecture designed for large-scale operations.',
+    ogType: 'website',
+  },
   theme: {
     primary: '#1e293b',
     primaryHover: '#0f172a',

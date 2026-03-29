@@ -54,8 +54,17 @@ export interface ThemeConfig {
   textMuted: string;
 }
 
+export interface SEOConfig {
+  title: string;
+  description: string;
+  ogImage?: string;
+  ogType?: string;
+  twitterCard?: string;
+}
+
 export interface SiteConfig {
   siteTitle: string;
+  seo?: SEOConfig;
   theme: ThemeConfig;
   hero: HeroProps;
   services: ServicesProps;
