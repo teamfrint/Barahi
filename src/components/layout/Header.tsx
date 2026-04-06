@@ -1,11 +1,18 @@
+import { useState, useEffect } from 'react'
+import { useLocation, Link } from 'react-router-dom'
 import '../../styles/Header.css'
 import LanguageSwitcher from './LanguageSwitcher'
 import { useTranslation } from 'react-i18next'
-import { useLocation, Link } from 'react-router-dom'
 
 function Header() {
   const { t } = useTranslation()
   const location = useLocation()
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
+
+  // Close menu on route/hash change
+  useEffect(() => {
+    setIsMenuOpen(false)
+  }, [location])
 
   return (
     <header className="header">
@@ -16,7 +23,16 @@ function Header() {
           </Link>
         </div>
         <div className="header-right">
-          <nav className="nav">
+          <button 
+            className={`mobile-menu-toggle ${isMenuOpen ? 'open' : ''}`} 
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            aria-label="Toggle menu"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <nav className={`nav ${isMenuOpen ? 'open' : ''}`}>
             <ul>
               <li>
                 <a href="#menu" className={location.hash === '#menu' ? 'active' : ''}>

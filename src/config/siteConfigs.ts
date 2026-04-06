@@ -22,7 +22,7 @@ export const defaultConfig: SiteConfig = {
     titleHighlight: 'hero.titleHighlight',
     description: 'hero.description',
     backgroundImage: '/graphics/hero.jpg',
-    primaryAction: { text: 'hero.cta_primary', href: '/menu' },
+    primaryAction: { text: 'hero.cta_primary', href: '#menu' },
   },
   menu: {
     title: 'menu.title',
