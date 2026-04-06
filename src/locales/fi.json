@@ -55,10 +55,12 @@
     }
   },
   "footer": {
-    "brand_description": "Autamme kehittäjiä rakentamaan kauniita verkkosivuja ennätysajassa.",
-    "copyright": "Landing Kit Framework. Kaikki oikeudet pidätetään.",
-    "resources": "Resurssit",
-    "company": "Yritys"
+    "brand_description": "Aito nepalilainen ravintola Helsingissä.",
+    "copyright": "Barahi. Kaikki oikeudet pidätetään.",
+    "address": "Pulttitie 5, 00880 Helsinki",
+    "opening_hours": "Ma-Pe: 10:30-21:00, La-Su: 12:00-21:00",
+    "nav_title": "Navigointi",
+    "social_title": "Seuraa meitä"
   },
   "menu": {
     "title": "Ruokalistamme",

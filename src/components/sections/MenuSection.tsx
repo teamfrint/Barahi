@@ -2,16 +2,25 @@ import '../../styles/Menu.css'
 import { MenuProps } from '../../types'
 import { useTranslation } from 'react-i18next'
 
-function MenuSection({ title, subtitle, categories }: MenuProps) {
+function MenuSection({ title, subtitle, backgroundImage, categories }: MenuProps) {
   const { t } = useTranslation()
+
+  const bannerStyle = backgroundImage ? {
+    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${backgroundImage})`,
+  } : {}
 
   return (
     <section id="menu" className="menu-section">
-      <div className="container">
-        <div className="menu-header">
-          <h2>{t(title)}</h2>
-          {subtitle && <p className="subtitle">{t(subtitle)}</p>}
+      <div className="menu-banner" style={bannerStyle}>
+        <div className="container">
+          <div className="menu-header">
+            <h2>{t(title)}</h2>
+            {subtitle && <p className="subtitle">{t(subtitle)}</p>}
+          </div>
         </div>
+      </div>
+      
+      <div className="container">
         
         <div className="menu-categories">
           {categories.map((category, catIndex) => (

@@ -25,11 +25,19 @@ export interface FooterLinkGroup {
 
 export interface FooterProps {
   brand: {
+    logoUrl?: string;
     logoText: string;
     logoHighlight: string;
     description: string;
   };
   linkGroups: FooterLinkGroup[];
+  address?: string;
+  openingHours?: string;
+  socials?: {
+    facebook?: string;
+    instagram?: string;
+    tiktok?: string;
+  };
   copyright: string;
 }
 
@@ -67,6 +75,7 @@ export interface MenuCategory {
 export interface MenuProps {
   title: string;
   subtitle?: string;
+  backgroundImage?: string;
   categories: MenuCategory[];
 }
 

@@ -21,39 +21,30 @@ export const defaultConfig: SiteConfig = {
     title: 'hero.title',
     titleHighlight: 'hero.titleHighlight',
     description: 'hero.description',
-    backgroundImage: '/menus/sizlers.jpg',
+    backgroundImage: '/graphics/hero.jpg',
     primaryAction: { text: 'hero.cta_primary', href: '/menu' },
-  },
-  footer: {
-    brand: {
-      logoText: 'Landing',
-      logoHighlight: 'Kit',
-      description: 'footer.brand_description',
-    },
-    linkGroups: [
-      {
-        title: 'footer.resources',
-        links: [
-          { text: 'nav.services', href: '#' },
-          { text: 'nav.home', href: '#' },
-          { text: 'nav.contact', href: '#' },
-        ],
-      },
-      {
-        title: 'footer.company',
-        links: [
-          { text: 'nav.home', href: '#' },
-          { text: 'nav.services', href: '#' },
-          { text: 'nav.contact', href: '#' },
-        ],
-      },
-    ],
-    copyright: 'footer.copyright',
   },
   menu: {
     title: 'menu.title',
     subtitle: 'menu.subtitle',
+    backgroundImage: '/graphics/chickenRice.jpeg',
     categories: [
+       {
+        title: 'menu.categories.lunch',
+        items: [
+          { name: 'menu.items.mon.name', description: 'menu.items.mon.desc', price: '13.50 €' },
+          { name: 'menu.items.tue.name', description: 'menu.items.tue.desc', price: '13.50 €' },
+          { name: 'menu.items.wed.name', description: 'menu.items.wed.desc', price: '13.50 €' },
+          { name: 'menu.items.thu.name', description: 'menu.items.thu.desc', price: '13.50 €' },
+          { name: 'menu.items.fri.name', description: 'menu.items.fri.desc', price: '13.50 €' },
+        ],
+      },
+      {
+        title: 'menu.categories.kids',
+        items: [
+          { name: 'menu.items.kids_desc.name', description: 'menu.items.kids_desc.desc', price: '8.90 €' },
+        ],
+      },
       {
         title: 'menu.categories.lamb',
         items: [
@@ -173,22 +164,7 @@ export const defaultConfig: SiteConfig = {
           { name: 'menu.items.sangria.name', description: 'menu.items.sangria.desc', price: '34.99 €' },
         ],
       },
-      {
-        title: 'menu.categories.lunch',
-        items: [
-          { name: 'menu.items.mon.name', description: 'menu.items.mon.desc', price: '13.50 €' },
-          { name: 'menu.items.tue.name', description: 'menu.items.tue.desc', price: '13.50 €' },
-          { name: 'menu.items.wed.name', description: 'menu.items.wed.desc', price: '13.50 €' },
-          { name: 'menu.items.thu.name', description: 'menu.items.thu.desc', price: '13.50 €' },
-          { name: 'menu.items.fri.name', description: 'menu.items.fri.desc', price: '13.50 €' },
-        ],
-      },
-      {
-        title: 'menu.categories.kids',
-        items: [
-          { name: 'menu.items.kids_desc.name', description: 'menu.items.kids_desc.desc', price: '8.90 €' },
-        ],
-      },
+
       {
         title: 'menu.categories.extra',
         items: [
@@ -199,5 +175,31 @@ export const defaultConfig: SiteConfig = {
         ],
       },
     ],
+  },
+  footer: {
+    brand: {
+      logoUrl: '/graphics/barahi_logo.png',
+      logoText: 'Barahi',
+      logoHighlight: 'Restaurant',
+      description: 'footer.brand_description',
+    },
+    linkGroups: [
+      {
+        title: 'footer.nav_title',
+        links: [
+          { text: 'nav.home', href: '#' },
+          { text: 'menu.title', href: '#menu' },
+          { text: 'nav.contact', href: '#contact' },
+        ],
+      },
+    ],
+    address: 'footer.address',
+    openingHours: 'footer.opening_hours',
+    socials: {
+      facebook: 'https://facebook.com/barahi',
+      instagram: 'https://instagram.com/barahi',
+      tiktok: 'https://tiktok.com/@barahi',
+    },
+    copyright: 'footer.copyright',
   },
 };

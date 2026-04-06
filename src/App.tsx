@@ -1,11 +1,11 @@
 import { useEffect } from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 import Header from './components/layout/Header'
 import Hero from './components/sections/Hero'
 import Footer from './components/layout/Footer'
 import SEO from './components/layout/SEO'
-import MenuPage from './pages/Menu.tsx'
-import ContactPage from './pages/Contact.tsx'
+import MenuSection from './components/sections/MenuSection'
+import ContactForm from './components/sections/ContactForm'
 import { defaultConfig } from './config/siteConfigs'
 import { applyTheme } from './utils/themeHelper'
 import './i18n'
@@ -13,7 +13,7 @@ import { useTranslation } from 'react-i18next'
 import { HelmetProvider } from 'react-helmet-async'
 
 function App() {
-  const { i18n } = useTranslation()
+  const { i18n, t } = useTranslation()
   const config = defaultConfig
 
   useEffect(() => {
@@ -28,13 +28,33 @@ function App() {
           <Header />
 
           <Routes>
+
             <Route path="/" element={
               <main>
                 <Hero {...config.hero} />
+                <MenuSection {...config.menu} />
+                <section id="contact" className="contact-section">
+                  <div className="container">
+                    <h2 style={{ textAlign: 'center', marginBottom: '3rem', fontSize: '3rem' }}>{t('contact.title')}</h2>
+                    <div className="contact-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem' }}>
+                      <div className="contact-info">
+                        <h3>{t('contact.info.visit')}</h3>
+                        <p>Pulttitie 5, 00880 Helsinki</p>
+                        <h3 style={{ marginTop: '2rem' }}>{t('contact.info.hours')}</h3>
+                        <p>{t('contact.info.mon_fri')}: 10:30 – 21:00</p>
+                        <p>{t('contact.info.sat')}: 12:00 – 21:00</p>
+                        <p>{t('contact.info.sun')}: 12:00 – 21:00</p>
+                      </div>
+                      <div className="contact-form">
+                        <ContactForm />
+                      </div>
+                    </div>
+                  </div>
+                </section>
               </main>
             } />
-            <Route path="/menu" element={<MenuPage config={config.menu} />} />
-            <Route path="/contact" element={<ContactPage />} />
+            <Route path="/menu" element={<Navigate to="/#menu" replace />} />
+            <Route path="/contact" element={<Navigate to="/#contact" replace />} />
           </Routes>
 
           <Footer {...config.footer} />

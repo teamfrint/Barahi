@@ -55,10 +55,12 @@
     }
   },
   "footer": {
-    "brand_description": "Empowering developers to build beautiful websites in record time.",
-    "copyright": "Landing Kit Framework. All rights reserved.",
-    "resources": "Resources",
-    "company": "Company"
+    "brand_description": "Authentic Nepali Restaurant in Helsinki.",
+    "copyright": "Barahi. All rights reserved.",
+    "address": "Pulttitie 5, 00880 Helsinki",
+    "opening_hours": "Mon-Fri: 10:30-21:00, Sat-Sun: 12:00-21:00",
+    "nav_title": "Navigation",
+    "social_title": "Follow Us"
   },
   "menu": {
     "title": "Our Menu",

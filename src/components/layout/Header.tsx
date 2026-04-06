@@ -12,21 +12,21 @@ function Header() {
       <div className="container header-content">
         <div className="logo">
           <Link to="/">
-            <img src="/assets/barahi_final.png" alt="Barahi Logo" className="logo-img" />
+            <img src="/graphics/barahi_logo.png" alt="Barahi Logo" className="logo-img" />
           </Link>
         </div>
         <div className="header-right">
           <nav className="nav">
             <ul>
               <li>
-                <Link to="/menu" className={location.pathname === '/menu' ? 'active' : ''}>
+                <a href="#menu" className={location.hash === '#menu' ? 'active' : ''}>
                   {t('menu.title')}
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''}>
+                <a href="#contact" className={location.hash === '#contact' ? 'active' : ''}>
                   {t('nav.contact')}
-                </Link>
+                </a>
               </li>
             </ul>
           </nav>
