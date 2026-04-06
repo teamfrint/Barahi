@@ -1,0 +1,176 @@
+.menu-section {
+  padding: 8rem 0;
+  background-color: #fffaf5; /* Cream background */
+  background-image: 
+    radial-gradient(circle at 100% 0%, #ffece0 0%, transparent 25%),
+    radial-gradient(circle at 0% 100%, #ffece0 0%, transparent 25%);
+  position: relative;
+  overflow: hidden;
+}
+
+.menu-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('https://www.transparenttextures.com/patterns/floral-paper.png'); /* Subtle floral texture */
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.menu-header {
+  text-align: center;
+  margin-bottom: 6rem;
+}
+
+.menu-header h2 {
+  font-size: 4rem;
+  color: var(--text-main);
+  margin-bottom: 1.5rem;
+  letter-spacing: -0.02em;
+}
+
+.menu-header .subtitle {
+  font-size: 1.25rem;
+  color: var(--text-muted);
+  max-width: 700px;
+  margin: 0 auto;
+  font-style: italic;
+}
+
+.menu-categories {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.menu-category {
+  scroll-margin-top: 100px;
+}
+
+.category-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.category-title {
+  font-size: 2.25rem;
+  color: var(--primary);
+  margin: 0;
+  padding: 0 1.5rem;
+  display: inline-block;
+  background: #fffaf5;
+  position: relative;
+  z-index: 2;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 800;
+}
+
+.category-header::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--primary);
+  opacity: 0.2;
+  z-index: 1;
+}
+
+.menu-items {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem 4rem;
+}
+
+@media (min-width: 900px) {
+  .menu-items {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.menu-item {
+  padding: 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  border-bottom: 1px dashed #e2e8f0;
+  transition: all 0.3s ease;
+}
+
+.menu-item:last-child {
+  border-bottom: none;
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.item-name {
+  font-size: 1.35rem;
+  color: var(--text-main);
+  font-weight: 700;
+  margin: 0;
+}
+
+.item-price {
+  font-size: 1.25rem;
+  color: var(--primary);
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.item-description {
+  font-size: 1rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.item-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+}
+
+.tag {
+  font-size: 0.7rem;
+  padding: 0.15rem 0.5rem;
+  background-color: var(--primary);
+  color: white;
+  border-radius: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.menu-page {
+  padding-top: 80px; /* Space for fixed header */
+  background-color: #fffaf5;
+}
+
+/* Specific styling for Lunch/Kids sections to make them stand out */
+.menu-category:nth-last-child(3),
+.menu-category:nth-last-child(2) {
+  background: white;
+  padding: 3rem;
+  border-radius: 24px;
+  box-shadow: 0 20px 40px -20px rgba(233, 90, 23, 0.1);
+  border: 1px solid #ffece0;
+}

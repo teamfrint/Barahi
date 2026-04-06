@@ -8,20 +8,9 @@ export interface HeroProps {
   title: string;
   titleHighlight?: string;
   description: string;
+  backgroundImage?: string;
   primaryAction?: ActionProps;
   secondaryAction?: ActionProps;
-}
-
-export interface ServiceItem {
-  icon?: string;
-  title: string;
-  description: string;
-}
-
-export interface ServicesProps {
-  title: string;
-  subtitle?: string;
-  services: ServiceItem[];
 }
 
 export interface FooterLink {
@@ -62,11 +51,30 @@ export interface SEOConfig {
   twitterCard?: string;
 }
 
+export interface MenuItem {
+  name: string;
+  description?: string;
+  price: string;
+  image?: string;
+  tags?: string[];
+}
+
+export interface MenuCategory {
+  title: string;
+  items: MenuItem[];
+}
+
+export interface MenuProps {
+  title: string;
+  subtitle?: string;
+  categories: MenuCategory[];
+}
+
 export interface SiteConfig {
   siteTitle: string;
   seo?: SEOConfig;
   theme: ThemeConfig;
   hero: HeroProps;
-  services: ServicesProps;
+  menu: MenuProps;
   footer: FooterProps;
 }
