@@ -24,6 +24,20 @@ export const defaultConfig: SiteConfig = {
     backgroundImage: '/graphics/hero.jpg',
     primaryAction: { text: 'hero.cta_primary', href: '#menu' },
   },
+  gallery: {
+    title: 'gallery.title',
+    images: [
+      { src: '/graphics/butterChicken.jpeg', alt: 'gallery.alt.butter_chicken' },
+      { src: '/graphics/momo.png', alt: 'gallery.alt.momo' },
+      { src: '/graphics/chickenRice.jpeg', alt: 'gallery.alt.chicken_rice' },
+      { src: '/graphics/chickentKadai.jpeg', alt: 'gallery.alt.chicken_kadai' },
+      { src: '/graphics/IMG_8892.jpeg', alt: 'gallery.alt.dish_1' },
+      { src: '/graphics/IMG_8894.jpeg', alt: 'gallery.alt.dish_2' },
+      { src: '/graphics/ctm.png', alt: 'gallery.alt.ctm' },
+      { src: '/graphics/hero.jpg', alt: 'gallery.alt.hero' },
+      { src: '/graphics/butterChicken.jpeg', alt: 'gallery.alt.butter_chicken_2' }
+    ]
+  },
   menu: {
     title: 'menu.title',
     subtitle: 'menu.subtitle',

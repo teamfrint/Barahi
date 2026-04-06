@@ -5,6 +5,7 @@ import Hero from './components/sections/Hero'
 import Footer from './components/layout/Footer'
 import SEO from './components/layout/SEO'
 import MenuSection from './components/sections/MenuSection'
+import GallerySection from './components/sections/GallerySection'
 import ContactForm from './components/sections/ContactForm'
 import { defaultConfig } from './config/siteConfigs'
 import { applyTheme } from './utils/themeHelper'
@@ -33,6 +34,7 @@ function App() {
               <main>
                 <Hero {...config.hero} />
                 <MenuSection {...config.menu} />
+                <GallerySection {...config.gallery} />
                 <section id="contact" className="contact-section">
                   <div className="container">
                     <h2 style={{ textAlign: 'center', marginBottom: '3rem', fontSize: '3rem' }}>{t('contact.title')}</h2>

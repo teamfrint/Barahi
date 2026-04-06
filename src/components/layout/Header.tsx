@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { useLocation, Link } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
 import '../../styles/Header.css'
 import LanguageSwitcher from './LanguageSwitcher'
 import { useTranslation } from 'react-i18next'
@@ -18,9 +18,9 @@ function Header() {
     <header className="header">
       <div className="container header-content">
         <div className="logo">
-          <Link to="/">
+          <a href="#hero" className="logo-link">
             <img src="/graphics/barahi_logo.png" alt="Barahi Logo" className="logo-img" />
-          </Link>
+          </a>
         </div>
         <div className="header-right">
           <button 

@@ -79,11 +79,20 @@ export interface MenuProps {
   categories: MenuCategory[];
 }
 
+export interface GalleryProps {
+  title: string;
+  images: {
+    src: string;
+    alt: string;
+  }[];
+}
+
 export interface SiteConfig {
   siteTitle: string;
   seo?: SEOConfig;
   theme: ThemeConfig;
   hero: HeroProps;
+  gallery: GalleryProps;
   menu: MenuProps;
   footer: FooterProps;
 }

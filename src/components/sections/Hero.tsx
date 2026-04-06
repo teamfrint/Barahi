@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import '../../styles/Hero.css'
 import { HeroProps } from '../../types'
 import { useTranslation } from 'react-i18next'
@@ -26,9 +25,9 @@ function Hero({ title, titleHighlight, description, backgroundImage, primaryActi
         )}
         <div className="hero-actions">
           {primaryAction && (
-            <Link to={primaryAction.href || '#'} className="btn btn-primary">
+            <a href={primaryAction.href || '#menu'} className="btn btn-primary">
               {t(primaryAction.text)}
-            </Link>
+            </a>
           )}
           {secondaryAction && secondaryAction.text && t(secondaryAction.text) !== "" && (
             <button className="btn btn-secondary" onClick={secondaryAction.onClick}>

@@ -16,7 +16,7 @@ function Footer({ brand, linkGroups, address, openingHours, socials, copyright }
           <div className="footer-links-group">
             {linkGroups.map((group, groupIndex) => (
               <div key={groupIndex}>
-                <h4>{t(group.title)}</h4>
+                {/* <h4>{t(group.title)}</h4> */}
                 <ul>
                   {group.links.map((link, linkIndex) => (
                     <li key={linkIndex}><a href={link.href}>{t(link.text)}</a></li>

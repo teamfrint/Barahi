@@ -36,6 +36,20 @@
     "cta_primary": "Ruokalistamme",
     "cta_secondary": ""
   },
+  "gallery": {
+    "title": "Ruokagalleria",
+    "alt": {
+      "butter_chicken": "Voi kana",
+      "momo": "Momo-nyytit",
+      "chicken_rice": "Kana-riisiannos",
+      "chicken_kadai": "Chicken Kadai",
+      "dish_1": "Herkullinen nepalilainen annos",
+      "dish_2": "Aitoa ruokaa",
+      "ctm": "Chicken Tikka Masala",
+      "hero": "Ravintolan tunnelma",
+      "butter_chicken_2": "Voi kana erikoismenu"
+    }
+  },
   "services": {
     "title": "Kaikki mitä tarvitset",
     "subtitle": "Kattava valikoima työkaluja ja komponentteja projektiesi vauhdittamiseen.",

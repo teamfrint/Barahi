@@ -36,6 +36,20 @@
     "cta_primary": "Our Menu",
     "cta_secondary": ""
   },
+  "gallery": {
+    "title": "Food Gallery",
+    "alt": {
+      "butter_chicken": "Butter Chicken",
+      "momo": "Momo",
+      "chicken_rice": "Chicken Rice",
+      "chicken_kadai": "Chicken Kadai",
+      "dish_1": "Delicious Nepali Dish",
+      "dish_2": "Authentic Cuisine",
+      "ctm": "Chicken Tikka Masala",
+      "hero": "Restaurant Atmosphere",
+      "butter_chicken_2": "Butter Chicken Special"
+    }
+  },
   "services": {
     "title": "Everything you need",
     "subtitle": "A comprehensive suite of tools and components to jumpstart your next project.",
