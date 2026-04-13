@@ -20,20 +20,20 @@ const ContactPage = () => {
             <div className="contact-info-section">
               <div className="info-card">
                 <h3>{t('contact.info.visit')}</h3>
-                <p>Pulttitie 5</p>
+                <p>Laippatie 1</p>
                 <p>00880 Helsinki</p>
                 <p>Finland</p>
               </div>
               <div className="info-card">
                 <h3>{t('contact.info.hours')}</h3>
-                <p>{t('contact.info.mon_fri')}: 10:30 – 21:00</p>
+                <p>{t('contact.info.mon_fri')}: 10:00 – 21:00</p>
                 <p>{t('contact.info.sat')}: 12:00 – 21:00</p>
                 <p>{t('contact.info.sun')}: 12:00 – 21:00</p>
               </div>
               <div className="info-card">
                 <h3>{t('contact.info.contact')}</h3>
-                <p>Email: info@barahi.fi</p>
-                <p>Tel: +358 12 345 6789</p>
+                <p>Email: info@talbarahi.fi</p>
+                <p>Tel: 040 5582600</p>
               </div>
             </div>
 
