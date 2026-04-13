@@ -59,6 +59,20 @@ export const defaultConfig: SiteConfig = {
           { name: 'menu.items.kids_desc.name', description: 'menu.items.kids_desc.desc', price: '8.90 €' },
         ],
       },
+            {
+        title: 'menu.categories.starter',
+        items: [
+          { name: 'menu.items.samosa.name', description: 'menu.items.samosa.desc', price: '6.00 €' },
+          { name: 'menu.items.fry_momo.name', description: 'menu.items.fry_momo.desc', price: '6.00 €' },
+          { name: 'menu.items.paneer_tikka_starter.name', description: 'menu.items.paneer_tikka_starter.desc', price: '5.00 €' },
+          { name: 'menu.items.veg_pakauda.name', description: 'menu.items.veg_pakauda.desc', price: '5.00 €' },
+          { name: 'menu.items.kebab_tikka.name', description: 'menu.items.kebab_tikka.desc', price: '6.00 €' },
+          { name: 'menu.items.shrimps_pakauda.name', description: 'menu.items.shrimps_pakauda.desc', price: '6.00 €' },
+          { name: 'menu.items.lamb_sekuwa_starter.name', description: 'menu.items.lamb_sekuwa_starter.desc', price: '6.00 €' },
+          { name: 'menu.items.papad_masala.name', description: 'menu.items.papad_masala.desc', price: '5.00 €' },
+          { name: 'menu.items.mix_salad.name', description: 'menu.items.mix_salad.desc', price: '5.00 €' },
+        ],
+      },
       {
         title: 'menu.categories.lamb',
         items: [
@@ -89,20 +103,6 @@ export const defaultConfig: SiteConfig = {
           { name: 'menu.items.chicken_garlic.name', description: 'menu.items.chicken_garlic.desc', price: '17.50 €' },
           { name: 'menu.items.butter_chicken.name', description: 'menu.items.butter_chicken.desc', price: '17.50 €' },
           { name: 'menu.items.mix_fry_rice.name', description: 'menu.items.mix_fry_rice.desc', price: '17.90 €' },
-        ],
-      },
-      {
-        title: 'menu.categories.starter',
-        items: [
-          { name: 'menu.items.samosa.name', description: 'menu.items.samosa.desc', price: '6.00 €' },
-          { name: 'menu.items.fry_momo.name', description: 'menu.items.fry_momo.desc', price: '6.00 €' },
-          { name: 'menu.items.paneer_tikka_starter.name', description: 'menu.items.paneer_tikka_starter.desc', price: '5.00 €' },
-          { name: 'menu.items.veg_pakauda.name', description: 'menu.items.veg_pakauda.desc', price: '5.00 €' },
-          { name: 'menu.items.kebab_tikka.name', description: 'menu.items.kebab_tikka.desc', price: '6.00 €' },
-          { name: 'menu.items.shrimps_pakauda.name', description: 'menu.items.shrimps_pakauda.desc', price: '6.00 €' },
-          { name: 'menu.items.lamb_sekuwa_starter.name', description: 'menu.items.lamb_sekuwa_starter.desc', price: '6.00 €' },
-          { name: 'menu.items.papad_masala.name', description: 'menu.items.papad_masala.desc', price: '5.00 €' },
-          { name: 'menu.items.mix_salad.name', description: 'menu.items.mix_salad.desc', price: '5.00 €' },
         ],
       },
       {

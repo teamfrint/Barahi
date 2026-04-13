@@ -1,7 +1,9 @@
+/* ===== CONTACT PAGE ===== */
 .contact-page {
   padding-top: 80px;
 }
 
+/* ===== HERO ===== */
 .contact-hero {
   background-color: var(--primary);
   color: white;
@@ -10,32 +12,47 @@
 }
 
 .contact-hero h1 {
-  font-size: 3.5rem;
+  font-size: clamp(2rem, 5vw, 3.5rem);
   margin-bottom: 1rem;
 }
 
 .contact-hero .subtitle {
-  font-size: 1.25rem;
+  font-size: clamp(1rem, 2vw, 1.25rem);
   opacity: 0.9;
 }
 
+/* ===== CONTENT ===== */
 .contact-content {
   padding: 6rem 0;
   background-color: #f8fafc;
 }
 
+/* ===== GRID (FIXED RESPONSIVE LAYOUT) ===== */
 .contact-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 4rem;
+  display: flex;
+  flex-direction: column; /* ✅ mobile default */
+  gap: 2rem;
 }
 
+/* Desktop layout */
 @media (min-width: 992px) {
   .contact-grid {
-    grid-template-columns: 1fr 2fr;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .contact-info-section {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .contact-form-section {
+    flex: 2;
+    min-width: 0;
   }
 }
 
+/* ===== INFO SECTION ===== */
 .contact-info-section {
   display: flex;
   flex-direction: column;
@@ -62,6 +79,7 @@
   line-height: 1.5;
 }
 
+/* ===== FORM SECTION ===== */
 .contact-form-section {
   background: white;
   padding: 3rem;
@@ -70,7 +88,7 @@
 }
 
 .contact-form-section h3 {
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 3vw, 2rem);
   margin-bottom: 2rem;
   color: var(--text-main);
 }
@@ -87,6 +105,7 @@
   gap: 0.5rem;
 }
 
+/* ===== FORM GRID ===== */
 .form-row {
   display: grid;
   grid-template-columns: 1fr;
@@ -121,6 +140,7 @@
   box-shadow: 0 0 0 3px rgba(233, 90, 23, 0.1);
 }
 
+/* ===== BUTTON ===== */
 .submit-btn {
   padding: 1rem;
   font-weight: 700;
@@ -129,6 +149,7 @@
   margin-top: 1rem;
 }
 
+/* ===== STATUS ===== */
 .form-status {
   text-align: center;
   padding: 1rem;
@@ -148,6 +169,7 @@
   border: 1px solid #fecaca;
 }
 
+/* ===== MAP ===== */
 .contact-map {
   line-height: 0;
 }
