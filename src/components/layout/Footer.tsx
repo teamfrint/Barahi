@@ -2,7 +2,7 @@ import '../../styles/Footer.css'
 import { FooterProps } from '../../types'
 import { useTranslation } from 'react-i18next'
 
-function Footer({ brand, linkGroups, address, openingHours, socials, copyright }: FooterProps) {
+function Footer({ brand, linkGroups, address, openingHours, socials }: FooterProps) {
   const { t } = useTranslation()
 
   return (
@@ -26,7 +26,6 @@ function Footer({ brand, linkGroups, address, openingHours, socials, copyright }
             ))}
           </div>
         </div>
-
         {/* Column 2: Opening Time and Address */}
         <div className="footer-col">
           <h4>{t('contact.info.visit')}</h4>
@@ -55,11 +54,6 @@ function Footer({ brand, linkGroups, address, openingHours, socials, copyright }
               </a>
             )}
           </div>
-        </div>
-      </div>
-      <div className="footer-bottom">
-        <div className="container">
-          <p>&copy; {new Date().getFullYear()} {t(copyright)}</p>
         </div>
       </div>
     </footer>
