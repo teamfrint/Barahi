@@ -46,6 +46,18 @@ function App() {
                         <p>{t('contact.info.mon_fri')}: 10:30 – 21:00</p>
                         <p>{t('contact.info.sat')}: 12:00 – 21:00</p>
                         <p>{t('contact.info.sun')}: 12:00 – 21:00</p>
+                        <div style={{ marginTop: '2rem' }}>
+                          <iframe
+                            title="Barahi Location"
+                            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Laippatie%201,%2000880%20Helsinki+(Restaurant%20Barahi)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                            width="100%"
+                            height="250"
+                            style={{ border: 0, borderRadius: '8px' }}
+                            allowFullScreen
+                            loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade"
+                          ></iframe>
+                        </div>
                       </div>
                       <div className="contact-form">
                         <ContactForm />
