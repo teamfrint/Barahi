@@ -1,0 +1,183 @@
+{
+  "nav": {
+    "home": "Home",
+    "contact": "Contact"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We'd love to hear from you. Visit us or send a message.",
+    "info": {
+      "visit": "Visit Us",
+      "hours": "Opening Hours",
+      "mon_fri": "Mon – Fri",
+      "sat": "Sat",
+      "sun": "Sun",
+      "contact": "Contact Details"
+    },
+    "form": {
+      "title": "Send a Message",
+      "name": "Full Name",
+      "name_placeholder": "John Doe",
+      "email": "Email Address",
+      "email_placeholder": "john@example.com",
+      "subject": "Subject",
+      "subject_placeholder": "Table reservation, feedback...",
+      "message": "Your Message",
+      "message_placeholder": "How can we help you?",
+      "submit": "Send Message",
+      "success": "Thank you! Your message has been sent.",
+      "error": "Oops! Something went wrong. Please try again."
+    }
+  },
+  "hero": {
+    "title": "Authentic Nepali taste",
+    "titleHighlight": "",
+    "description": "",
+    "cta_primary": "Our Menu",
+    "cta_secondary": ""
+  },
+  "gallery": {
+    "title": "Food Gallery",
+    "alt": {
+      "butter_chicken": "Butter Chicken",
+      "momo": "Momo",
+      "chicken_rice": "Chicken Rice",
+      "chicken_kadai": "Chicken Kadai",
+      "dish_1": "Delicious Nepali Dish",
+      "dish_2": "Authentic Cuisine",
+      "ctm": "Chicken Tikka Masala",
+      "hero": "Restaurant Atmosphere",
+      "butter_chicken_2": "Butter Chicken Special"
+    }
+  },
+  "services": {
+    "title": "Everything you need",
+    "subtitle": "A comprehensive suite of tools and components to jumpstart your next project.",
+    "items": {
+      "performance": {
+        "title": "Fast Performance",
+        "description": "Optimized for speed and efficiency, ensuring a smooth user experience."
+      },
+      "modular": {
+        "title": "Modular Design",
+        "description": "Easily swap components and styles to match your brand's identity."
+      },
+      "responsive": {
+        "title": "Fully Responsive",
+        "description": "Looks great on desktops, tablets, and phones without extra effort."
+      }
+    }
+  },
+  "footer": {
+    "brand_description": "Authentic Nepali Restaurant in Helsinki.",
+    "copyright": "Barahi. All rights reserved.",
+    "address": "Pulttitie 5, 00880 Helsinki",
+    "opening_hours": "Mon-Fri: 10:30-21:00, Sat-Sun: 12:00-21:00",
+    "nav_title": "Navigation",
+    "social_title": "Follow Us"
+  },
+  "menu": {
+    "title": "Our Menu",
+    "subtitle": "Fresh ingredients, authentic flavors, and family recipes.",
+    "categories": {
+      "lamb": "Lamb",
+      "chicken": "Chicken",
+      "starter": "Starter",
+      "veg_vegan": "Vegetable and Vegan",
+      "fish_prawn": "Fish and Prawn",
+      "desserts": "Desserts",
+      "beer_drinks": "Beer and Drinks",
+      "soft_drinks": "Soft Drinks",
+      "wine": "Wine",
+      "lunch": "Daily Lunch Menu (13.50€)",
+      "kids": "Kids Menu (8.90€)",
+      "extra": "Extra Food"
+    },
+    "items": {
+      "lamb_curry": { "name": "Lamb Curry", "desc": "Lamb pieces in house curry sauce (G, L)" },
+      "lamb_korma": { "name": "Lamb Korma", "desc": "Lamb pieces in mild tomato-cream sauce (G, L)" },
+      "lamb_chilli": { "name": "Lamb Chilli", "desc": "Lamb in tomato sauce with green bell pepper, green chili, soy, onion, and ginger (Hot; G, L)" },
+      "lamb_talbarahi": { "name": "Lamb Talbarahi", "desc": "Lamb pieces in cream sauce seasoned with cumin, ginger, coriander, and garlic (Medium; G, L)" },
+      "lamb_roganjuice": { "name": "Lamb Rogan Josh", "desc": "Lamb with house yogurt and coriander-garlic sauce (G, L)" },
+      "lamb_masala": { "name": "Lamb Masala", "desc": "Lamb in masala sauce (Medium; G, L)" },
+      "garlic_lamb": { "name": "Garlic Lamb", "desc": "Lamb with garlic and ginger in coriander-curry sauce (G, L)" },
+      "lamb_sekuwa": { "name": "Lamb Sekuwa", "desc": "Tandoori-marinated lamb tenderloin with onion, bell pepper, and ginger (G, L)" },
+      "special_mix": { "name": "Talbarahi Special Mix", "desc": "Lamb tenderloin, tandoori chicken, king prawns, house fresh cheese, bell pepper, onion, and ginger (G)" },
+      "mix_sizzler": { "name": "Mix Sizzler", "desc": "Lamb, tandoori chicken, bell pepper, onion, ginger, garlic, tomato, and chili sauce served on a hot sizzler (G, L)" },
+      "lamb_kofta": { "name": "Lamb Kofta", "desc": "Minced lamb with bell pepper, onion, and chili sauce (Medium)" },
+      "lamb_momo": { "name": "Lamb Momo", "desc": "Minced lamb dumplings with chutney sauce (L)" },
+      "chicken_curry": { "name": "Chicken Curry", "desc": "Chicken pieces in curry sauce (G, L)" },
+      "chicken_tikka": { "name": "Chicken Tikka", "desc": "Herb yogurt marinated tandoori-baked chicken breast pieces (G, L)" },
+      "chicken_korma": { "name": "Chicken Korma", "desc": "Chicken pieces in mild tomato-cream sauce (G, L)" },
+      "chicken_tikka_masala": { "name": "Chicken Tikka Masala", "desc": "Herb yogurt marinated chicken breast pieces in masala sauce (Medium; G, L)" },
+      "chicken_chilli": { "name": "Chicken Chilli", "desc": "Chicken breast pieces with bell pepper, onion, ginger, and chili in fresh tomato-coriander sauce (Hot; G, L)" },
+      "chicken_talbarahi": { "name": "Chicken Talbarahi", "desc": "Tandoori-marinated chicken breast pieces with cumin, coriander seeds, green chili, and garlic in creamy sauce (Medium; G, L)" },
+      "chicken_sizzler": { "name": "Chicken Sizzler", "desc": "Tandoori-baked marinated chicken skewers with onion, bell pepper, ginger, garlic, and cream sauce (Medium; G, L)" },
+      "chicken_garlic": { "name": "Chicken Garlic", "desc": "Chicken breast pieces with garlic and ginger in coriander-curry sauce (G, L)" },
+      "butter_chicken": { "name": "Butter Chicken", "desc": "Tandoori-marinated chicken breast pieces in creamy fresh tomato-butter sauce (G, L)" },
+      "mix_fry_rice": { "name": "Mix Fry Rice", "desc": "House special biryani with chicken, shrimp, cheese, and vegetables (G)" },
+      "samosa": { "name": "Samosa", "desc": "Small fried vegetable pastry (V, L)" },
+      "fry_momo": { "name": "Fry Momo", "desc": "Fried lamb dumplings with chutney sauce (L)" },
+      "paneer_tikka_starter": { "name": "Paneer Tikka", "desc": "Tandoori-marinated fresh cheese with onion, bell pepper, and tomato (G)" },
+      "veg_pakauda": { "name": "Veg Pakauda", "desc": "Fried mixed vegetables" },
+      "kebab_tikka": { "name": "Kebab Tikka", "desc": "Minced lamb skewer seasoned with bell pepper, onion, and ginger in tandoori sauce (Medium; G, L)" },
+      "shrimps_pakauda": { "name": "Shrimps Pakauda", "desc": "Fried shrimps (G, L)" },
+      "lamb_sekuwa_starter": { "name": "Lamb Sekuwa", "desc": "Lamb tenderloin with bell pepper, onion, and ginger in tandoori sauce (Medium; G, L)" },
+      "papad_masala": { "name": "Papad Masala", "desc": "Roasted papadum bread topped with fresh spicy onion-tomato, cucumber, and nuts" },
+      "mix_salad": { "name": "Mix Salad", "desc": "Green salad, cucumber, carrot" },
+      "alu_gobi": { "name": "Alu Gobi (Vegan)", "desc": "Fried potatoes and cauliflower seasoned with ginger and cumin (Medium; V, G, L)" },
+      "palak_paneer": { "name": "Palak Paneer", "desc": "House fresh cheese in spinach-cream sauce (G)" },
+      "paneer_tikka_masala": { "name": "Paneer Tikka Masala", "desc": "Tandoori-marinated fresh cheese in masala sauce (Medium)" },
+      "paneer_tikka_main": { "name": "Paneer Tikka", "desc": "Tandoori-marinated fresh cheese with onion, bell pepper, and tomato (G)" },
+      "butter_paneer": { "name": "Butter Paneer", "desc": "House fresh cheese in creamy tomato-cashew-almond sauce (G)" },
+      "malai_kofta": { "name": "Malai Kofta", "desc": "Cashew-potato-cheese balls in tomato-cream sauce (G, L)" },
+      "mix_veg": { "name": "Mix Vegetable", "desc": "Cauliflower, broccoli, mushrooms, bell pepper, onion, and fresh cheese in spicy sauce (G)" },
+      "dal_makhani": { "name": "Dal Makhani", "desc": "Lentils and ginger in tomato-butter-cream sauce (G, L)" },
+      "mutter_paneer": { "name": "Mutter Paneer", "desc": "Fried fresh cheese and peas in ginger-garlic-coriander butter-cream sauce" },
+      "paneer_chilli": { "name": "Paneer Chilli", "desc": "Fresh cheese in ginger-soy-tomato sauce (Hot; G)" },
+      "veg_fry_rice": { "name": "Veg Fry Rice", "desc": "Risotto-style rice with cheese and vegetables" },
+      "butter_salmon": { "name": "Butter Salmon", "desc": "Salmon in butter-cream sauce" },
+      "prawn_tikka": { "name": "Prawn Tikka", "desc": "Tandoori-marinated king prawns with tomato, onion, bell pepper, ginger, and green chili (Hot; G, L)" },
+      "fish_korma": { "name": "Fish Korma", "desc": "Pangasius fillet in tomato-butter-coconut-cream sauce (G, L)" },
+      "fish_curry": { "name": "Fish Curry", "desc": "Pangasius fillet in curry sauce" },
+      "salmon_masala": { "name": "Salmon Masala", "desc": "Salmon fillet in masala sauce (Medium)" },
+      "butter_prawn": { "name": "Butter Prawn", "desc": "King prawns in butter-cream sauce" },
+      "shrimps_chilli": { "name": "Shrimps Chilli", "desc": "Small shrimps with bell pepper and onion in chili sauce (Hot)" },
+      "garlic_prawn": { "name": "Garlic Prawn", "desc": "King prawns in garlic sauce" },
+      "ice_cream": { "name": "Ice Cream", "desc": "" },
+      "kulfi": { "name": "Kulfi", "desc": "Traditional Nepali ice cream" },
+      "gulab_jamun": { "name": "Gulab Jamun", "desc": "Sweet milk solids dumplings" },
+      "talbarahi_special_dessert": { "name": "Talbarahi Special", "desc": "" },
+      "nepali_tea": { "name": "Nepali Tea", "desc": "" },
+      "nepali_coffee": { "name": "Nepali Coffee", "desc": "" },
+      "mango_lassi": { "name": "Mango Lassi", "desc": "" },
+      "banana_lassi": { "name": "Banana Lassi", "desc": "" },
+      "mustikka_lassi": { "name": "Blueberry Lassi", "desc": "" },
+      "tikka_gold": { "name": "Tikka Gold Beer", "desc": "" },
+      "kingfisher": { "name": "Kingfisher Beer", "desc": "" },
+      "gorkha": { "name": "Gorkha Beer", "desc": "" },
+      "nepal_ice": { "name": "Nepal Ice Beer", "desc": "" },
+      "sherpa": { "name": "Sherpa Beer", "desc": "" },
+      "karhu": { "name": "Karhu Beer", "desc": "" },
+      "long_drink": { "name": "Long Drink", "desc": "" },
+      "cider": { "name": "Cider (Apple, Pear, Berries)", "desc": "" },
+      "coca_cola": { "name": "Coca Cola", "desc": "" },
+      "sprite": { "name": "Sprite", "desc": "" },
+      "jaffa": { "name": "Jaffa", "desc": "" },
+      "wine_12cl": { "name": "Wine 12cl", "desc": "" },
+      "wine_16cl": { "name": "Wine 16cl", "desc": "" },
+      "wine_75cl": { "name": "Wine Bottle 75cl", "desc": "" },
+      "sangria": { "name": "Sangria / Jar (White & Red)", "desc": "" },
+      "mon": { "name": "Monday", "desc": "Chicken Chilli, Lamb Curry, Butter Paneer, Fish Korma" },
+      "tue": { "name": "Tuesday", "desc": "Chicken Curry, Lamb Masala, Mutter Paneer, Fish Curry" },
+      "wed": { "name": "Wednesday", "desc": "Butter Chicken, Lamb Chilli, Paneer Butter Masala, Shrimps Korma" },
+      "thu": { "name": "Thursday", "desc": "Chicken Tikka Masala, Lamb Rogan Josh, Paneer Chilli, Fish Masala" },
+      "fri": { "name": "Friday", "desc": "Chicken Korma, Lamb Kofta, Butter Paneer, Fish Curry" },
+      "kids_desc": { "name": "Selection", "desc": "Chicken korma, Chicken curry, Lamb korma, Lamb curry, Butter paneer, Butter shrimps, Fish korma" },
+      "rice": { "name": "Rice", "desc": "" },
+      "naan": { "name": "Naan", "desc": "" },
+      "garlic_naan": { "name": "Garlic Naan", "desc": "" },
+      "raita": { "name": "Raita", "desc": "" }
+    }
+  }
+}

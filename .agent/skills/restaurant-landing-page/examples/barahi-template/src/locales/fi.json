@@ -1,0 +1,183 @@
+{
+  "nav": {
+    "home": "Etusivu",
+    "contact": "Ota yhteyttä"
+  },
+  "contact": {
+    "title": "Ota yhteyttä",
+    "subtitle": "Haluaisimme kuulla sinusta. Tule käymään tai lähetä viesti.",
+    "info": {
+      "visit": "Käy luonamme",
+      "hours": "Aukioloajat",
+      "mon_fri": "Ma – Pe",
+      "sat": "La",
+      "sun": "Su",
+      "contact": "Yhteystiedot"
+    },
+    "form": {
+      "title": "Lähetä viesti",
+      "name": "Koko nimi",
+      "name_placeholder": "Matti Meikäläinen",
+      "email": "Sähköpostiosoite",
+      "email_placeholder": "matti@esimerkki.fi",
+      "subject": "Aihe",
+      "subject_placeholder": "Pöytävaraus, palaute...",
+      "message": "Viestisi",
+      "message_placeholder": "Miten voimme auttaa?",
+      "submit": "Lähetä viesti",
+      "success": "Kiitos! Viestisi on lähetetty.",
+      "error": "Hups! Jotain meni vikaan. Yritä uudelleen."
+    }
+  },
+  "hero": {
+    "title": "Aito nepalilainen maku",
+    "titleHighlight": "",
+    "description": "",
+    "cta_primary": "Ruokalistamme",
+    "cta_secondary": ""
+  },
+  "gallery": {
+    "title": "Ruokagalleria",
+    "alt": {
+      "butter_chicken": "Voi kana",
+      "momo": "Momo-nyytit",
+      "chicken_rice": "Kana-riisiannos",
+      "chicken_kadai": "Chicken Kadai",
+      "dish_1": "Herkullinen nepalilainen annos",
+      "dish_2": "Aitoa ruokaa",
+      "ctm": "Chicken Tikka Masala",
+      "hero": "Ravintolan tunnelma",
+      "butter_chicken_2": "Voi kana erikoismenu"
+    }
+  },
+  "services": {
+    "title": "Kaikki mitä tarvitset",
+    "subtitle": "Kattava valikoima työkaluja ja komponentteja projektiesi vauhdittamiseen.",
+    "items": {
+      "performance": {
+        "title": "Nopea suorituskyky",
+        "description": "Optimoitu nopeuteen ja tehokkuuteen, varmistaen sujuvan käyttökokemuksen."
+      },
+      "modular": {
+        "title": "Modulaarinen muotoilu",
+        "description": "Vaihda komponentteja ja tyylejä helposti brändisi mukaiseksi."
+      },
+      "responsive": {
+        "title": "Täysin responsiivinen",
+        "description": "Näyttää upealta pöytäkoneilla, tableteilla ja puhelimilla ilman vaivaa."
+      }
+    }
+  },
+  "footer": {
+    "brand_description": "Aito nepalilainen ravintola Helsingissä.",
+    "copyright": "Barahi. Kaikki oikeudet pidätetään.",
+    "address": "Pulttitie 5, 00880 Helsinki",
+    "opening_hours": "Ma-Pe: 10:30-21:00, La-Su: 12:00-21:00",
+    "nav_title": "Navigointi",
+    "social_title": "Seuraa meitä"
+  },
+  "menu": {
+    "title": "Ruokalistamme",
+    "subtitle": "Tuoreita ainesosia, aitoja makuja ja perhereseptejä.",
+    "categories": {
+      "lamb": "Lammas",
+      "chicken": "Kana",
+      "starter": "Alkuruoat",
+      "veg_vegan": "Kasvis ja Vegaani",
+      "fish_prawn": "Kala ja Jättikatkarapu",
+      "desserts": "Jälkiruoat",
+      "beer_drinks": "Olut ja Juomat",
+      "soft_drinks": "Virvoitusjuomat",
+      "wine": "Viini",
+      "lunch": "Päivittäinen Lounasmenu (13.50€)",
+      "kids": "Lasten Menu (8.90€)",
+      "extra": "Lisukkeet"
+    },
+    "items": {
+      "lamb_curry": { "name": "Lamb Curry", "desc": "Lammasta talon currykastikkeessa (G, L)" },
+      "lamb_korma": { "name": "Lamb Korma", "desc": "Lammasta miedossa tomaatti-kermakastikkeessa (G, L)" },
+      "lamb_chilli": { "name": "Lamb Chilli", "desc": "Lammasta tomaattikastikkeessa, vihreää paprikaa ja vihreää chiliä, soijaa, sipulia ja inkivääriä (tulinen; G, L)" },
+      "lamb_talbarahi": { "name": "Lamb Talbarahi", "desc": "Lammaspaloja kuminalla, inkiväärillä, korianterilla ja valkosipulilla maustetussa kermakastikkeessa (keskivahva; G, L)" },
+      "lamb_roganjuice": { "name": "Lamb Roganjuice", "desc": "Lammasta, talon jogurttia ja korianteri-valkosipulikastiketta (G, L)" },
+      "lamb_masala": { "name": "Lamb Masala", "desc": "Lammas masala-kastikkeessa (keskivahva, G, L)" },
+      "garlic_lamb": { "name": "Garlic Lamb", "desc": "Lammas valkosipulia ja inkivääriä korianteri-currykastikkeessa (G, L)" },
+      "lamb_sekuwa": { "name": "Lamb Sekuwa", "desc": "Tandoorimarinoitua lampaan sisäfilettä, sipulia, paprikaa ja inkivääriä (G, L)" },
+      "special_mix": { "name": "Talbarahi Special Mix", "desc": "Lampaan sisäfilettä, tandoori kana, jättikatkarapuja, talon tuorejuustoa, paprikaa, sipulia ja inkivääriä (G, kysy laktoositonta vaihtoehtoa)" },
+      "mix_sizzler": { "name": "Mix Sizzler", "desc": "Kuumalla parilalla tarjoiltavaa lammasta, tandoori kanaa, paprikaa, sipulia, inkivääriä, valkosipulia, tomaattia sekä chilikastiketta (G, L)" },
+      "lamb_kofta": { "name": "Lamb Kofta", "desc": "Lammas jauheliha paprika sipuli chilli kastiketta (keskivahva)" },
+      "lamb_momo": { "name": "Lamb Momo", "desc": "Lammasjauheliha nyyttejä chutney-kastikkeessa (L)" },
+      "chicken_curry": { "name": "Chicken Curry", "desc": "Kanapaloja currykastikkeessa (G, L)" },
+      "chicken_tikka": { "name": "Chicken Tikka", "desc": "Yrttijogurtissa marinoituja tandooripaistettuja kananrintapaloja (G, L)" },
+      "chicken_korma": { "name": "Chicken Korma", "desc": "Kanapaloja miedossa tomaatti-kermakastikkeessa (G, L)" },
+      "chicken_tikka_masala": { "name": "Chicken Tikka Masala", "desc": "Yrttijogurtissa marinoituja kananrintapaloja masala-kastikkeessa (keskivahva, G, L)" },
+      "chicken_chilli": { "name": "Chicken Chilli", "desc": "Kananrintapaloja, paprikaa, sipulia, inkivääriä ja chiliä tuoretomaatti-korianteri-kastikkeessa (tulinen; G, L)" },
+      "chicken_talbarahi": { "name": "Chicken Talbarahi", "desc": "Tandoorimarinoituja kananrintapaloja, kuminan ja korianterinsiemeniä, vihreää chiliä ja valkosipulia kermaisessa kastikkeessa (G, L, keskivahva)" },
+      "chicken_sizzler": { "name": "Chicken Sizzler", "desc": "Tandooriuunissa paistettu, marinoitu kanavarras sekä sipulia, paprikaa, inkivääriä, valkosipulia ja kermakastiketta (keskivahva; G, L)" },
+      "chicken_garlic": { "name": "Chicken Garlic", "desc": "Kananrintapaloja, valkosipulia ja inkivääriä korianteri-currykastikkeessa (G, L)" },
+      "butter_chicken": { "name": "Butter Chicken", "desc": "Tandoorimarinoituja kananrintapaloja kermaisessa tuoretomaatti-voikastikkeessa (G, L)" },
+      "mix_fry_rice": { "name": "Mix Fry Rice", "desc": "Talon erikoisbiryani sisältää kanaa, katkarapuja, juustoa ja kasviksia (G, myös kasvisversiona)" },
+      "samosa": { "name": "Samosa", "desc": "Pieniä friteerattuja kasvispiirakka (V, L)" },
+      "fry_momo": { "name": "Fry Momo", "desc": "Friteerattuja lammasjauheliha ja chutney-kastiketta (L)" },
+      "paneer_tikka_starter": { "name": "Paneer Tikka", "desc": "Tandoorimarinoitua tuorejuustoa, sipulia, paprikaa ja tomaattia (G, kysy laktoositonta vaihtoehtoa)" },
+      "veg_pakauda": { "name": "Veg Pakauda", "desc": "Friteerattuja kasvis" },
+      "kebab_tikka": { "name": "Kebab Tikka", "desc": "Paprika, sipulilla ja inkivääriä maustettu lammas jauhelihavarras tandoori kastikkeessa (G, L, keskivahva)" },
+      "shrimps_pakauda": { "name": "Shrimps Pakauda", "desc": "Friteerattuja katkarapuja (G, L)" },
+      "lamb_sekuwa_starter": { "name": "Lamb Sekuwa", "desc": "Lampaan sisäfilettä paprikalla, sipulilla ja inkivääriä maustettu tandoori kastikkeessa (G, L, keskivahva)" },
+      "papad_masala": { "name": "Papad Masala", "desc": "Paahdetusta papadum-leivästä, jonka päällä on tuoretta, mausteista sipuli-tomaatti, kurkku eri pähkinä" },
+      "mix_salad": { "name": "Mix Salad", "desc": "Vihreä salaatti, kurkku, porkkana" },
+      "alu_gobi": { "name": "Alu Gobi (Vegan)", "desc": "Paistettua perunaa ja kukkakaalia, inkiväärillä ja juustokuminalla maustetussa kastikkeessa (keskivahva, V, G, L)" },
+      "palak_paneer": { "name": "Palak Paneer", "desc": "Talon tuorejuustoa pinaatti-kermakastikkeessa (G, kysy laktoositonta vaihtoehtoa)" },
+      "paneer_tikka_masala": { "name": "Paneer Tikka Masala", "desc": "Tandoorimarinoitua tuorejuustoa masala-kastikkeessa (keskivahva)" },
+      "paneer_tikka_main": { "name": "Paneer Tikka", "desc": "Tandoorimarinoitua tuorejuustoa, sipulia, paprikaa ja tomaattia (G, kysy laktoositonta vaihtoehtoa)" },
+      "butter_paneer": { "name": "Butter Paneer", "desc": "Talon tuorejuustoa kermaisessa tomaatti-cashewpähkinä-mantelikastikkeessa (G, kysy laktoositonta vaihtoehtoa)" },
+      "malai_kofta": { "name": "Malai Kofta", "desc": "Cashew-peruna-tuorejuusto pyöryköitä tomaatti-kermakastikkeessa (G, L)" },
+      "mix_veg": { "name": "Mix Vegetable", "desc": "Kukkakaali, parsakaali, herkkusieniä, paprikaa, sipulia ja tuorejuustoa tulisessa kastikkeessa (myös vegaanisena / laktoosittomana)" },
+      "dal_makhani": { "name": "Dal Makhani", "desc": "Linssejä ja inkivääriä tomaatti-voi-kermakastikkeessa (G, L, kysy vegaanista vaihtoehtoa)" },
+      "mutter_paneer": { "name": "Mutter Paneer", "desc": "Paistettua tuorejuustoa ja herneitä inkiväärillä, valkosipulilla ja korianterilla maustetussa voi-kermakastikkeessa" },
+      "paneer_chilli": { "name": "Paneer Chilli", "desc": "Tuorejuustoa inkivääri-soija-tomaattikastikkeessa (G, kysy laktoositonta vaihtoehtoa, tulinen)" },
+      "veg_fry_rice": { "name": "Veg Fry Rice", "desc": "Juustoa ja kasviksia muistuttavat risottoa maukkain lisäkkeineen" },
+      "butter_salmon": { "name": "Butter Salmon", "desc": "Lohi kala voi kermakastikkeessa" },
+      "prawn_tikka": { "name": "Prawn Tikka", "desc": "Tandoorimarinoituja jättikatkarapuja, tomaattia, sipulia, paprikaa, inkivääriä ja vihreää chiliä (tulinen; G, L)" },
+      "fish_korma": { "name": "Fish Korma", "desc": "Pangasiusfile tomaatti-voi-kookos-kermakastikkeessa (G, L)" },
+      "fish_curry": { "name": "Fish Curry", "desc": "Pangasiusfilet curry kastikkeessa" },
+      "salmon_masala": { "name": "Salmon Masala", "desc": "Lohifile masalakastikkeessa (keskivahva)" },
+      "butter_prawn": { "name": "Butter Prawn", "desc": "Iso katkarapu voi kermakastikkeessa" },
+      "shrimps_chilli": { "name": "Shrimps Chilli", "desc": "Pieni katkarapu paprika, sipuli chillikastikkeessa (tulinen)" },
+      "garlic_prawn": { "name": "Garlic Prawn", "desc": "Iso katkarapu valkosipuli kastikkeessa" },
+      "ice_cream": { "name": "Jäätelö", "desc": "" },
+      "kulfi": { "name": "Kulfi", "desc": "Perinteinen nepalilainen jäätelö" },
+      "gulab_jamun": { "name": "Gulab Jamun", "desc": "Makeita maitopalloja" },
+      "talbarahi_special_dessert": { "name": "Talbarahi Special", "desc": "" },
+      "nepali_tea": { "name": "Nepalilainen tee", "desc": "" },
+      "nepali_coffee": { "name": "Nepalilainen kahvi", "desc": "" },
+      "mango_lassi": { "name": "Mango Lassi", "desc": "" },
+      "banana_lassi": { "name": "Banaani Lassi", "desc": "" },
+      "mustikka_lassi": { "name": "Mustikka Lassi", "desc": "" },
+      "tikka_gold": { "name": "Tikka Gold -olut", "desc": "" },
+      "kingfisher": { "name": "Kingfisher -olut", "desc": "" },
+      "gorkha": { "name": "Gorkha -olut", "desc": "" },
+      "nepal_ice": { "name": "Nepal Ice -olut", "desc": "" },
+      "sherpa": { "name": "Sherpa -olut", "desc": "" },
+      "karhu": { "name": "Karhu -olut", "desc": "" },
+      "long_drink": { "name": "Lonkero", "desc": "" },
+      "cider": { "name": "Siideri (omena, päärynä, marja)", "desc": "" },
+      "coca_cola": { "name": "Coca Cola", "desc": "" },
+      "sprite": { "name": "Sprite", "desc": "" },
+      "jaffa": { "name": "Jaffa", "desc": "" },
+      "wine_12cl": { "name": "Viini 12cl", "desc": "" },
+      "wine_16cl": { "name": "Viini 16cl", "desc": "" },
+      "wine_75cl": { "name": "Pullo viiniä 75cl", "desc": "" },
+      "sangria": { "name": "Sangria / kannu (valko & puna)", "desc": "" },
+      "mon": { "name": "Maanantai", "desc": "Chicken Chilli, Lamb Curry, Butter Paneer, Fish korma" },
+      "tue": { "name": "Tiistai", "desc": "Chicken Curry, Lamb Masala, Mutter Paneer, Fish Curry" },
+      "wed": { "name": "Keskiviikko", "desc": "Butter Chicken, Lamb Chilli, Paneer Butter Masala, Shrimps Korma" },
+      "thu": { "name": "Torstai", "desc": "Chicken Tikka Masala, Lamb Roganjuice, Paneer Chilli, Fish Masala" },
+      "fri": { "name": "Perjantai", "desc": "Chicken Korma, Lamb Kofta, Butter Paneer, Fish Curry" },
+      "kids_desc": { "name": "Valikoima", "desc": "Chicken korma, Chicken curry, Lamb korma, Lamb curry, Butter paneer, Butter shrimps, Fish korma" },
+      "rice": { "name": "Riisi", "desc": "" },
+      "naan": { "name": "Naan-leipä", "desc": "" },
+      "garlic_naan": { "name": "Valkosipuli Naan", "desc": "" },
+      "raita": { "name": "Raita", "desc": "" }
+    }
+  }
+}
