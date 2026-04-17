@@ -6,7 +6,7 @@ function MenuSection({ title, subtitle, backgroundImage, categories }: MenuProps
   const { t } = useTranslation()
 
   const bannerStyle = backgroundImage ? {
-    backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${backgroundImage})`,
+    // backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${backgroundImage})`,
   } : {}
 
   return (
@@ -19,9 +19,9 @@ function MenuSection({ title, subtitle, backgroundImage, categories }: MenuProps
           </div>
         </div>
       </div>
-      
+
       <div className="container">
-        
+
         <div className="menu-categories">
           {categories.map((category, catIndex) => (
             <div key={catIndex} className="menu-category">
