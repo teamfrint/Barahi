@@ -28,12 +28,12 @@ function MenuSection({ title, subtitle, backgroundImage, categories }: MenuProps
               <div className="category-header">
                 <h3 className="category-title">{t(category.title)}</h3>
               </div>
-              <div className="menu-items">
+              <div className={`menu-items ${category.items.length === 1 ? 'single-item' : ''}`}>
                 {category.items.map((item, itemIndex) => (
                   <div key={itemIndex} className="menu-item">
                     <div className="item-header">
                       <h4 className="item-name">{t(item.name)}</h4>
-                      <span className="item-price">{item.price}</span>
+                      {item.price && <span className="item-price">{item.price}</span>}
                     </div>
                     {item.description && (
                       <p className="item-description">{t(item.description)}</p>

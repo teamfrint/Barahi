@@ -12,7 +12,9 @@
       "mon_fri": "Mon – Fri",
       "sat": "Sat",
       "sun": "Sun",
-      "contact": "Contact Details"
+      "contact": "Contact Details",
+      "phone": "040 5582600",
+      "email": "info@talbarahi.fi"
     },
     "form": {
       "title": "Send a Message",
@@ -70,8 +72,9 @@
   },
   "footer": {
     "brand_description": "Authentic Nepali Restaurant in Helsinki.",
-    "address": "Pulttitie 5, 00880 Helsinki",
-    "opening_hours": "Mon-Fri: 10:30-21:00 <br />Sat-Sun: 12:00-21:00",
+    "address": "Laippatie, 00880 Helsinki",
+    "opening_hours": "Mon-Fri: 10:00-21:00 \nSat: 12:00-21:00 \nSun: 12:00-18:00",
+    "copyright": "© 2026 Tal Barahi Restaurant. All rights reserved.",
     "nav_title": "Navigation",
     "social_title": "Follow Us"
   },
@@ -88,7 +91,8 @@
       "beer_drinks": "Beer and Drinks",
       "soft_drinks": "Soft Drinks",
       "wine": "Wine",
-      "lunch": "Daily Lunch Menu (13.50€)",
+      "lunch": "Daily Lunch Buffet",
+      "lunch_all_days": "Every Monday to Friday lunch buffet 13.50€ — We serve Chicken, Lamb Paneer, and vegan items from 10:00 to 15:00",
       "kids": "Kids Menu (8.90€)",
       "extra": "Extra Food"
     },

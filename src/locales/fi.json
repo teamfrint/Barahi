@@ -12,7 +12,9 @@
       "mon_fri": "Ma – Pe",
       "sat": "La",
       "sun": "Su",
-      "contact": "Yhteystiedot"
+      "contact": "Yhteystiedot",
+      "phone": "040 5582600",
+      "email": "info@talbarahi.fi"
     },
     "form": {
       "title": "Lähetä viesti",
@@ -70,9 +72,9 @@
   },
   "footer": {
     "brand_description": "Aito nepalilainen ravintola Helsingissä.",
-    "copyright": "Barahi. Kaikki oikeudet pidätetään.",
-    "address": "Laipatie 1, 00880 Helsinki",
-    "opening_hours": "Ma-Pe: 10:30-21:00, La-Su: 12:00-21:00",
+    "copyright": "© 2026 Tal Barahi Restaurant. Kaikki oikeudet pidätetään.",
+    "address": "Laippatie, 00880 Helsinki",
+    "opening_hours": "Ma-Pe: 10:00-21:00 \nLa: 12:00-21:00 \nSu: 12:00-18:00",
     "nav_title": "Navigointi",
     "social_title": "Seuraa meitä"
   },
@@ -89,7 +91,8 @@
       "beer_drinks": "Olut ja Juomat",
       "soft_drinks": "Virvoitusjuomat",
       "wine": "Viini",
-      "lunch": "Päivittäinen Lounasmenu (13.50€)",
+      "lunch": "Päivittäinen lounasbuffet",
+      "lunch_all_days": "Joka maanantaista perjantaihin lounasbuffet 13.50€ — Tarjoilemme kanaa, lammas paneeria ja vegaanista vaihtoehtoa klo 10.00–15.00",
       "kids": "Lasten Menu (8.90€)",
       "extra": "Lisukkeet"
     },

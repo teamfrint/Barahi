@@ -32,6 +32,8 @@ export interface FooterProps {
   };
   linkGroups: FooterLinkGroup[];
   address?: string;
+  phone?: string;
+  email?: string;
   openingHours?: string;
   socials?: {
     facebook?: string;

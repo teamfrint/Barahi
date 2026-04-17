@@ -46,17 +46,19 @@ export const defaultConfig: SiteConfig = {
        {
         title: 'menu.categories.lunch',
         items: [
-          { name: 'menu.items.mon.name', description: 'menu.items.mon.desc', price: '13.50 €' },
-          { name: 'menu.items.tue.name', description: 'menu.items.tue.desc', price: '13.50 €' },
-          { name: 'menu.items.wed.name', description: 'menu.items.wed.desc', price: '13.50 €' },
-          { name: 'menu.items.thu.name', description: 'menu.items.thu.desc', price: '13.50 €' },
-          { name: 'menu.items.fri.name', description: 'menu.items.fri.desc', price: '13.50 €' },
+          { name: 'menu.categories.lunch_all_days', description: '', price: '' },
         ],
       },
       {
         title: 'menu.categories.kids',
         items: [
-          { name: 'menu.items.kids_desc.name', description: 'menu.items.kids_desc.desc', price: '8.90 €' },
+          { name: 'menu.items.chicken_korma.name', description: 'menu.items.chicken_korma.desc', price: '8.90 €' },
+          { name: 'menu.items.chicken_curry.name', description: 'menu.items.chicken_curry.desc', price: '8.90 €' },
+          { name: 'menu.items.lamb_korma.name', description: 'menu.items.lamb_korma.desc', price: '8.90 €' },
+          { name: 'menu.items.lamb_curry.name', description: 'menu.items.lamb_curry.desc', price: '8.90 €' },
+          { name: 'menu.items.butter_paneer.name', description: 'menu.items.butter_paneer.desc', price: '8.90 €' },
+          { name: 'menu.items.butter_prawn.name', description: 'menu.items.butter_prawn.desc', price: '8.90 €' },
+          { name: 'menu.items.fish_korma.name', description: 'menu.items.fish_korma.desc', price: '8.90 €' },
         ],
       },
             {
@@ -208,11 +210,13 @@ export const defaultConfig: SiteConfig = {
       },
     ],
     address: 'footer.address',
+    phone: 'contact.info.phone',
+    email: 'contact.info.email',
     openingHours: 'footer.opening_hours',
     socials: {
       facebook: 'https://facebook.com/barahi',
       instagram: 'https://instagram.com/barahi',
-      tiktok: 'https://tiktok.com/@barahi',
+      tiktok: 'https://vm.tiktok.com/ZNRVrSX3H/',
     },
     copyright: 'footer.copyright',
   },
