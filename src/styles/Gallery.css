@@ -58,4 +58,8 @@
   .gallery-header h2 {
     font-size: 2rem;
   }
+  
+  .gallery-section {
+    padding: 3rem 0;
+  }
 }

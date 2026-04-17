@@ -46,6 +46,22 @@
     width: 100% !important;
     display: block !important;
   }
+  
+  .contact-hero {
+    padding: 4rem 0;
+  }
+  
+  .contact-content {
+    padding: 3rem 0;
+  }
+  
+  .contact-form-section {
+    padding: 2rem 1.5rem;
+  }
+  
+  .info-card {
+    padding: 1.5rem;
+  }
 }
 
 /* Desktop layout */
