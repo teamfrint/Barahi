@@ -204,6 +204,10 @@ address a:hover {
     margin: 0 auto 2rem;
   }
 
+  address p {
+    justify-content: center;
+  }
+
   .social-links {
     justify-content: center;
   }

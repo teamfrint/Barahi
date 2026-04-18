@@ -52,7 +52,7 @@
   }
   
   .contact-content {
-    padding: 3rem 0;
+    padding: 3rem 0 5rem 0;
   }
   
   .contact-form-section {
@@ -178,6 +178,7 @@
   text-transform: uppercase;
   letter-spacing: 0.05em;
   margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 /* ===== STATUS ===== */

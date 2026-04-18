@@ -11,6 +11,33 @@ function MenuSection({ title, subtitle, backgroundImage, categories }: MenuProps
 
   return (
     <section id="menu" className="menu-section">
+      <div className="container">
+        <div className="menu-nav-wrapper">
+          <ul className="menu-nav">
+            {categories.slice(1).map((category, catIndex) => {
+              const originalIndex = catIndex + 1;
+              return (
+                <li key={originalIndex} className="menu-nav-item">
+                  <a 
+                    href={`#category-${originalIndex}`}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      const element = document.getElementById(`category-${originalIndex}`);
+                      if (element) {
+                        const y = element.getBoundingClientRect().top + window.scrollY - 140;
+                        window.scrollTo({ top: y, behavior: 'smooth' });
+                      }
+                    }}
+                  >
+                    {t(category.title)}
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      </div>
+
       <div className="menu-banner" style={bannerStyle}>
         <div className="container">
           <div className="menu-header">
@@ -22,9 +49,10 @@ function MenuSection({ title, subtitle, backgroundImage, categories }: MenuProps
 
       <div className="container">
 
+
         <div className="menu-categories">
           {categories.map((category, catIndex) => (
-            <div key={catIndex} className="menu-category">
+            <div key={catIndex} id={`category-${catIndex}`} className="menu-category">
               <div className="category-header">
                 <h3 className="category-title">{t(category.title)}</h3>
               </div>
