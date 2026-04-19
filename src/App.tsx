@@ -41,7 +41,7 @@ function App() {
                     <div className="contact-grid" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem' }}>
                       <div className="contact-info">
                         <h3>{t('contact.info.visit')}</h3>
-                        <p>Laipatie 1, 00880 Helsinki</p>
+                        <p>Laippatie 1, 00880 Helsinki</p>
                         <p>{t('contact.info.phone')}</p>
                         <p>{t('contact.info.email')}</p>
                         <h3 style={{ marginTop: '2rem' }}>{t('contact.info.hours')}</h3>
