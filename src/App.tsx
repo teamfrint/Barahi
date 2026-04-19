@@ -47,7 +47,7 @@ function App() {
                         <h3 style={{ marginTop: '2rem' }}>{t('contact.info.hours')}</h3>
                         <p>{t('contact.info.mon_fri')}: 10:00 – 21:00</p>
                         <p>{t('contact.info.sat')}: 12:00 – 21:00</p>
-                        <p>{t('contact.info.sun')}: 12:00 – 21:00</p>
+                        <p>{t('contact.info.sun')}: 12:00 – 18:00</p>
                         <div style={{ marginTop: '2rem' }}>
                           <iframe
                             title="Barahi Location"

@@ -214,8 +214,8 @@ export const defaultConfig: SiteConfig = {
     email: 'contact.info.email',
     openingHours: 'footer.opening_hours',
     socials: {
-      facebook: 'https://facebook.com/barahi',
-      instagram: 'https://instagram.com/barahi',
+      facebook: 'https://www.facebook.com/people/Ravintola-Talbarahi/61572340787844/?mibextid=wwXIfr&rdid=2CgMfaAxz9qOYU5s&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F18njbmeb2D%2F%3Fmibextid%3DwwXIfr',
+      instagram: 'https://www.instagram.com/ravintolatalbarahi?igsh=MTJoNTlybmx5N2M2aA%3D%3D',
       tiktok: 'https://vm.tiktok.com/ZNRVrSX3H/',
     },
     copyright: 'footer.copyright',
